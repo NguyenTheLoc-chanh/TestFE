@@ -1,0 +1,15 @@
+* {
+    box-sizing: inherit;
+}
+html, body {
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Poppins';
+    font-style: normal;
+    box-sizing: border-box;
+}
