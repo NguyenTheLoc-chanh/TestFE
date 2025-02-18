@@ -1,0 +1,118 @@
+/* Collapcontent Type 5 */
+.collapsible_type-content{
+    margin: 32px 96px;
+}
+.collapsible__type-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.collapsible__type-head span {
+    flex: 1; 
+    height: 1px;
+    background-color: #F3EAE5;
+}
+
+.collapsible__type-head p {
+    white-space: nowrap; 
+    margin: 0;
+    font-family: 'Instrument Serif';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #462B20;
+    opacity: 0.85;
+}
+
+.collapsible__content h4{
+    font-family: 'Instrument Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 61px;
+    letter-spacing: -1px;
+    color: #462B20;
+    margin: 0;
+}
+
+.collapsible__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collapsible_type-content > .row:nth-child(2){
+    margin-top: 88px;
+}
+.collapsible__content-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+}
+
+.collapsible__content-item{
+    font-family: 'Instrument Serif';
+    font-style: normal;
+    font-size: 19px;
+    line-height: 24px;
+    color: rgba(160, 70, 34, 0.3);
+    padding: 0 4px;
+}
+.collapsible__content-item:nth-child(2), 
+.collapsible__content-item:nth-child(3) {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.collapsible__content-item:first-child {
+    border-left: none;
+}
+
+.collapsible__content-item:last-child {
+    border-right: none;
+}
+
+.collapsible__content-item.active{
+    font-weight: 400;
+    color: #462B20;
+}
+
+.col__left {
+    flex: 0 0 22%;
+    max-width: 22%;
+}
+.col__left-img1{
+    margin-bottom: 179px;
+}
+
+.col__left-img2{
+    margin-left: 30px;
+}
+
+.row > .col:nth-child(2) {
+    flex: 0 0 56%;
+    max-width: 56%;
+}
+
+.row > .col:nth-child(3) {
+   flex: 0 0 22%;
+   max-width: 22%; 
+}
+
+.col span {
+    display: block;
+    width: 160px; 
+    height: 1px; 
+    background-color: #F3EAE5;
+    margin: 56px auto;
+}
+
+.col__right-img1{
+    margin-bottom: 157px;
+    margin-left: 30px;
+}
+

@@ -1,0 +1,90 @@
+/* Section 2 */
+.collapsible{
+    background: #FFFFFF;
+}
+.content{
+    margin: 76px 0 119px 40px;
+}
+
+.content_title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #402C22;
+    opacity: 0.7;
+}
+
+.col h3{
+    margin: 15px 0 18px 0;
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 106%;
+    letter-spacing: -0.02em;
+    color: #402C22;
+}
+
+.content__cushion{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    height: 27px;
+}
+
+.col p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    line-height: 23px;
+    color: #402C22;
+    opacity: 0.8;
+}
+
+.content__cushion span{
+    padding-right: 16px;
+}
+
+.content__cushion p{
+    margin: 0;
+    font-family: 'Optima nova LT Pro';
+    font-size: 22px;
+    line-height: 122%;
+    letter-spacing: -0.02em;
+    color: #402C22;
+}
+
+.content-list{
+    padding: 0;
+    list-style: none;
+}
+
+.content-item{
+    width: 452px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Optima nova LT Pro';
+    font-size: 22px;
+    line-height: 122%;
+    letter-spacing: -0.02em;
+    color: #402C22;
+    border-top: 1px solid #D9D5D3;
+}
+.content-item span{
+    padding-right: 10px;
+}
+
+.content_img1{
+    width: 564px;
+    height: 651px;
+}
+.content_img2{
+    width: 353px;
+    height: 351px;
+    margin-left: 98px;
+}
