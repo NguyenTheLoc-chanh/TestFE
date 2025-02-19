@@ -1,6 +1,41 @@
 /* Collapcontent Type 5 */
+.collapsible__type{
+    width: 1920px;
+    height: 1046px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.col__body{
+    display: flex;
+    margin-top: 154px;
+}
+.col__left{
+    display: flex;
+    flex-direction: column;
+}
+.col__center {
+    max-width: 636px;
+    width: fit-content;
+    max-height: 998px;
+    height: fit-content;
+}
+.collapsible__content p{
+    margin-top: 4px;
+    width: 618px;
+    height: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #462B20;
+    opacity: 0.85;
+}
 .collapsible_type-content{
     margin: 32px 96px;
+    padding-bottom: 72px;
 }
 .collapsible__type-head{
     display: flex;
@@ -48,19 +83,25 @@
     margin-top: 88px;
 }
 .collapsible__content-list{
+    min-width: 629px;
+    width: fit-content;
+    max-height: 29px;
+    height: fit-content;
+    margin-top: 32px;
     list-style: none;
     padding: 0;
     display: flex;
-
+    justify-content: center;
 }
 
 .collapsible__content-item{
+    color: #462B20;
+    opacity: 0.4;
     font-family: 'Instrument Serif';
     font-style: normal;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 24px;
-    color: rgba(160, 70, 34, 0.3);
-    padding: 0 4px;
+    padding: 0 14px;
 }
 .collapsible__content-item:nth-child(2), 
 .collapsible__content-item:nth-child(3) {
@@ -77,42 +118,48 @@
 }
 
 .collapsible__content-item.active{
+    font-family: 'Instrument Serif';
+    font-style: normal;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     color: #462B20;
-}
-
-.col__left {
-    flex: 0 0 22%;
-    max-width: 22%;
+    opacity: 1;
 }
 .col__left-img1{
+    width: 183px;
+    height: 257px;
     margin-bottom: 179px;
 }
 
 .col__left-img2{
-    margin-left: 30px;
+    width: 253px;
+    height: 363px;
+    margin-left: 73px;
+    margin-right: 220px;
 }
 
-.row > .col:nth-child(2) {
-    flex: 0 0 56%;
-    max-width: 56%;
-}
-
-.row > .col:nth-child(3) {
-   flex: 0 0 22%;
-   max-width: 22%; 
-}
-
-.col span {
+.col__center span {
     display: block;
     width: 160px; 
     height: 1px; 
     background-color: #F3EAE5;
     margin: 56px auto;
 }
+.col__right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 217px;
 
+}
 .col__right-img1{
+    width: 274px;
+    height: 385px;
     margin-bottom: 157px;
-    margin-left: 30px;
+    margin-left: 55px;
+}
+.col__right-img2{
+    width: 183px;
+    height: 257px;
 }
 

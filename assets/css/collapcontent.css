@@ -1,9 +1,17 @@
 /* Section 2 */
 .collapsible{
-    background: #FFFFFF;
+    width: 1920px;
+    height: 1046px;
+    background-color: #ffffff;
+    box-sizing: border-box;
 }
 .content{
-    margin: 76px 0 119px 40px;
+    display: flex;
+    margin: 76px 0 119px 59px;
+}
+.col__left{
+    margin-top: 73px;
+    width: 597px;
 }
 
 .content_title{
@@ -14,11 +22,12 @@
     line-height: 20px;
     color: #402C22;
     opacity: 0.7;
+    margin: 0;
 }
 
-.col h3{
+.col__left h3{
     margin: 15px 0 18px 0;
-    font-family: 'Optima';
+    font-family: 'Optima', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 63px;
@@ -32,17 +41,20 @@
     justify-content: space-between;  
     align-items: center;
     height: 27px;
+    margin-top: 33px;
+    width: 452px;
 }
 
-.col p{
+.col__left p{
+    width: 403px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    text-align: center;
     font-size: 16px;
     line-height: 23px;
     color: #402C22;
     opacity: 0.8;
+    margin: 7px 0;
 }
 
 .content__cushion span{
@@ -61,6 +73,8 @@
 .content-list{
     padding: 0;
     list-style: none;
+    margin-top: 22px;
+    width: 452px;
 }
 
 .content-item{
@@ -74,17 +88,28 @@
     letter-spacing: -0.02em;
     color: #402C22;
     border-top: 1px solid #D9D5D3;
+    padding: 20px 0;
+}
+
+.content-item p {
+    font-family: 'Optima nova LT Pro';
+    font-size: 22px;
+    line-height: 122%;
+    letter-spacing: -0.02em;
+    color: #402C22;
+    margin: 0;
 }
 .content-item span{
     padding-right: 10px;
 }
 
 .content_img1{
-    width: 564px;
-    height: 651px;
+    width: 764px;
+    height: 851px;
 }
 .content_img2{
-    width: 353px;
-    height: 351px;
-    margin-left: 98px;
+    width: 553px;
+    height: 551px;
+    object-fit: cover;
+    margin-left: 16px;
 }
